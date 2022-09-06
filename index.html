@@ -48,6 +48,13 @@
         h2 {
             margin-bottom: 0px;
         }
+
+        img {
+            display: block;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
 
 </head>
@@ -101,18 +108,15 @@
             
             <p><strong>Note:</strong> The longer version describes a near future version of Nutrify (something the AI grant will help to fund).</p>
             
-            <figure>
-            <img src="https://raw.githubusercontent.com/mrdbourke/nutrify-ai-grant-application/main/images/nutrify-the-food-pokedex.png?token=GHSAT0AAAAAABRXKUYMERGORNV3I2NHSQUYYYX3BWA" alt="" />
-            </figure>
+            <!-- <div style="text-align: center;"> -->
+            <img src="https://raw.githubusercontent.com/mrdbourke/nutrify-ai-grant-application/main/images/nutrify-the-food-pokedex.png?token=GHSAT0AAAAAABRXKUYMERGORNV3I2NHSQUYYYX3BWA" alt="Nutrify as the Pokédex of food" width=750/>
+            <!-- </div> -->
             
             <h2>Why Nutrify?</h2>
             
             <p>Food labels are confusing.</p>
             
-            <figure>
-            <img src="https://raw.githubusercontent.com/mrdbourke/nutrify-ai-grant-application/main/images/nutrify-confusing-food-labels.png?token=GHSAT0AAAAAABRXKUYNXTSCZTSHZTOR4ZA4YYX3CIQ" alt="A series of confusing food labels" />
-            <figcaption>A series of confusing food labels</figcaption>
-            </figure>
+            <img src="https://raw.githubusercontent.com/mrdbourke/nutrify-ai-grant-application/main/images/nutrify-confusing-food-labels.png?token=GHSAT0AAAAAABRXKUYNXTSCZTSHZTOR4ZA4YYX3CIQ" alt="A series of confusing food labels" width=750/>
             
             <p>Obesity is increasing around the world.</p>
             
@@ -149,7 +153,7 @@
             <p>Nutrify plans to find them and help others find them too.</p>
             
             <h2>Who are we/why us?</h2>
-            
+            <br>
             <ul>
             <li><a href="https://www.mrdbourke.com/">Daniel Bourke</a>, machine learning engineer/instructor/nutritionist/food scientist/farmer</li>
             </ul>
@@ -180,10 +184,7 @@
             
             <p>Focusing on food and food only.</p>
             
-            <figure>
             <img src="https://raw.githubusercontent.com/mrdbourke/nutrify-ai-grant-application/main/images/nutrify-competition.png?token=GHSAT0AAAAAABRXKUYNZR4HPDRV6QJHLOI6YYX3CFQ" alt="Nutrify competition, Google and Pinterest offer a wide ranging search engine whereas Nutrify will focus on food only" />
-            <figcaption>Nutrify competition, Google and Pinterest offer a wide ranging search engine whereas Nutrify will focus on food only</figcaption>
-            </figure>
             
             <p>There are also existing food education and fitness apps already such as MyFitnessPal, though these applications focus specifically on tracking rather than education.</p>
             
@@ -200,7 +201,7 @@
             <p>On a longer term horizon, cooking is arguably a harder problem to solve than self-driving because it uses five human senses rather than two.</p>
             
             <h2>Roadmap</h2>
-            
+            <br>
             <ul>
             <li><strong>Months 1-6</strong> - Build out functionality, cover 500-1000+ whole foods and 99.99% of ingredients on food labels.</li>
             <li><strong>Month 7</strong> - Supermarket test: walk into a random supermarket and Nutrify should be able to identify and offer insights to all food items in the fresh produce section as well as any food label.</li>
@@ -218,7 +219,7 @@
             <ul>
             <li><strong>$250k cash</strong> - With this we'll both be able to work on Nutrify full-time for at least a year, so progress will be quite fast, if we pay ourselves ~$75k/year each, we'll have plenty to spare for unseen circumstances.</li>
             <li><strong>$250k Azure credits</strong> - Most of this will likely go towards GPU compute (8x A100 GPUs for a year on Azure is ~$110k). Though I'd like to see how far we can go with just fine-tuning pretrained models. Hosting will be almost free due to most of compute happening on device (network latency doesn't make for a fun time).</li>
-            <li><strong>$10,000 in human-labelling credits from <a class="autolink" href="https://Scale.ai">Scale.ai</a></strong> - I (Daniel) have a feeling that most of the labelling will be done by large vision-language models (or self-supervised) but we'll use these credits for creating gold-standard ground truths to compare auto-labels to.</li>
+            <li><strong>$10,000 in human-labelling credits from Scale.ai</strong> - I (Daniel) have a feeling that most of the labelling will be done by large vision-language models (or self-supervised) but we'll use these credits for creating gold-standard ground truths to compare auto-labels to.</li>
             </ul>
         
 
